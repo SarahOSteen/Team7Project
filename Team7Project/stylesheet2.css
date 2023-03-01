@@ -1,0 +1,175 @@
+/* Body - General Styling */
+
+header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* NAV BAR */
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  
+  #nav_bar #book {
+    background: #525555; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+  }
+
+  .nav-links {
+    color: #404040;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    float: left;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #book:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #book {
+    color: #fff;
+    float: right;
+  }
+  
+/* Banner */
+
+.banner-container{
+    display:flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.banner-container {
+  width: 100%;
+  width: 300;
+  background: url(./restaurant.jpeg); width: 100%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  color: #030303;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Menus*/
+div.menus {
+  padding: 0, 100px, 0, 100px;
+}
+.breakfast-container {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: 300px;
+    background-color: #91846f;
+    align-content: center;
+}
+.lunch-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: 300px;
+    background-color: #e1c481;
+    align-content: center;
+}
+.dinner-container {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+    width: auto;
+    height: 300px;
+    background-color: #91846f;
+    align-content: center;
+}
+.text p {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin: 40px;
+    width: 300px;
+    justify-content: center;
+    text-align: left;
+
+}
+.text h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;  
+    font-size: 40px;
+    margin: 40px;
+    text-align: center;
+
+}
+.image {
+  display: flex;
+  justify-items: center;
+  margin: 40px;
+}
+
+/* Menu Buttons */
+
+
+.MenuButton:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+.MenuButton {
+  color: #fff;
+  float: right;
+  background: #525555; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+}
+
+/* footer menu */
+
+#footer_bar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#footer_bar li {
+  display: flex;
+  padding: 8px;
+}
+
+.footer-links {
+  color: #404040;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.footer-links a:hover {
+  text-decoration: underline;
+}
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;*/

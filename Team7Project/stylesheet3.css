@@ -1,0 +1,133 @@
+header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* NAV BAR */
+
+  
+  #nav_bar li {
+    display: inline-block;
+    padding: 8px;
+  }
+  
+  #nav_bar #book {
+    background: #525555; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+  }
+
+  .nav-links {
+    color: #404040;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    float: left;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #book:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #book {
+    color: #fff;
+    float: right;
+  }
+  
+.banner-container{
+    display:flex;
+    margin-top: 20px;
+}
+/* Booking Form */
+.Booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+}
+.text p {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    margin: 40px
+}
+.text h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;  
+    font-size: 40px;
+    margin: 40px;
+}
+.nav-item {
+    background-color: #525555;
+    color: antiquewhite;
+    width: 100%;
+    height: 50px;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    flex-direction: row; 
+    justify-items: space-around;
+}
+.banner-container {
+    display: flex;
+    width: 100%;
+    height: 300;
+    background: url(./restaurant.jpeg);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #030303;
+    text-align: center;
+    justify-content: center;
+}
+.Booking {
+  width: 100%;
+  height: auto;
+  background-color: #999;
+}
+#footer_bar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#footer_bar li {
+  display: flex;
+  padding: 8px;
+}
+
+.footer-links {
+  color: #404040;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;*/
