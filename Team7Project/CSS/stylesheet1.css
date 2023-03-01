@@ -94,7 +94,7 @@ header {
     display: flex;
     width: 100%;
     height: 300;
-    background: url(./restaurant.jpeg);
+    background: url(/Images/restaurant.jpeg);
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
     color: #030303;
