@@ -59,7 +59,7 @@ li.nav-links a:hover {
 .banner-container {
 width: 100%;
 width: 300;
-background: url(/Images/restaurant.jpeg); width: 100%;
+background: url(../Images/restaurant.jpeg); width: 100%;
 font-family: 'Dancing Script', cursive;
 font-size: 50px;
 color: #030303;
