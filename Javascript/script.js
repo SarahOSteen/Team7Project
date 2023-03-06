@@ -6,6 +6,6 @@ function myFunction() {
     if (firstName=="" || bookingDate=="" || bookingTime=="") {
         alert ("Please enter all your details.") 
     } else {
-        alert("Hi " + firstName + "!\nThank you for booking a table on " + bookingDate + " at " + bookingTime + ".\nYou will receive an e-mail confirmation shortly." );
+        alert("Hi " + firstName + "!\nThank you for booking a table on " + bookingDate + " at " + bookingTime + ".\nYou will receive an e-mail confirmation shortly.");
     }
 }
