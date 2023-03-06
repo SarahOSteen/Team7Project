@@ -1,65 +1,65 @@
 /* Body - General Styling */
 
 header {
-    width: 100%;
-  }
-  
-ul {
-  list-style: none;
+  width: 100%;
 }
-  
+
+ul {
+list-style: none;
+}
+
 /* NAV BAR */
 
 #nav_bar li {
-  display: inline-block;
-  padding: 8px;
+display: inline-block;
+padding: 8px;
 }
 
 #nav_bar #book {
-  background-color: #60d77a;
-  margin-right: 25px;
-  padding: 7px 15px;
-  border-radius: 3px; 
-  font-weight: bold;
-  font-family: 'Kalam', cursive;
-  color: #373737;
-  float: right;
+background-color: #60d77a;
+margin-right: 25px;
+padding: 7px 15px;
+border-radius: 3px; 
+font-weight: bold;
+font-family: 'Kalam', cursive;
+color: #373737;
+float: right;
 }
 
 .nav-links {
-  color: #404040;
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  float: left;
+color: #404040;
+font-family: 'Kalam', cursive;
+font-size: 20px;
+float: left;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
 li.nav-links a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 
 #nav_bar #book:hover { 
-  box-shadow: 1px 1px 5px #999;
-  background-color: #373737;
-  color: #fff
+box-shadow: 1px 1px 5px #999;
+background-color: #373737;
+color: #fff
 }
 
 /* Banner */
 
 .banner-container{
-  display:flex;
-  margin-top: 20px;
-  width: 100%;
+display:flex;
+margin-top: 20px;
+width: 100%;
 }
 
 .banner-container {
 width: 100%;
 width: 300;
-background: url(../Images/restaurant.jpeg); width: 100%;
+background: url(/Images/restaurant.jpeg); width: 100%;
 font-family: 'Dancing Script', cursive;
 font-size: 50px;
 color: #030303;
@@ -73,94 +73,103 @@ padding: 0, 20px, 0, 20px;
 }
 
 .menu-container {
-  display:flex;
-  flex-direction: row-reverse;
-  padding: 20px;
-  height: auto;
-  background-color: #91846f;
-  align-content: center;
+display:flex;
+flex-direction: row-reverse;
+padding: 20px;
+height: auto;
+background-color: #91846f;
+align-content: center;
+justify-content: center;
+}
+
+.menu-container-inner {
+max-width: 1200px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
 }
 
 #image-right {
-  flex-direction: row;
-  background-color: #e1c481;
+flex-direction: row-reverse;
+background-color: #e1c481;
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 .text p {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
-  margin: 10px;
-  width: 300px;
-  text-align: left;
+font-family: 'Kalam', cursive;
+font-size: 20px;
+margin: 10px;
+width: 300px;
+text-align: left;
 
 }
 
 .text h2 {
-  font-family: 'Kalam', cursive;
-  font-weight: bold;  
-  font-size: 40px;
-  text-align: center;
-  margin: 10px;
+font-family: 'Kalam', cursive;
+font-weight: bold;  
+font-size: 40px;
+text-align: center;
+margin: 10px;
 }
 
 img {
-  margin: 40px;
-  width: 350px;
+margin: 40px;
+width: 350px;
 }
 
 /* Menu Buttons */
 
 .MenuButton {
-  color: #fff;
-  float: right;
-  background: #525555; 
-  margin: 10px;
-  padding: 7px 15px;
-  border-radius: 3px; 
-  font-weight: bold;
-  font-family: 'Kalam', cursive;
+color: #fff;
+float: right;
+background: #525555; 
+margin: 10px;
+padding: 7px 15px;
+border-radius: 3px; 
+font-weight: bold;
+font-family: 'Kalam', cursive;
 }
 
 .MenuButton:hover { 
-  box-shadow: 1px 1px 5px #999;
-  color: #1d1d1d;
-  background: #fff;
+box-shadow: 1px 1px 5px #999;
+color: #1d1d1d;
+background: #fff;
 }
 
 /* footer menu */
 
 #footer_bar {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 100%;
 }
 
 #footer_bar li {
-  display: flex;
-  padding: 8px;
+display: flex;
+padding: 8px;
 }
 
 .footer-links {
-  color: #404040;
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
+color: #404040;
+font-family: 'Kalam', cursive;
+font-size: 20px;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
 li.footer-links a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 /*font-family: 'Dancing Script', cursive;
 font-family: 'Kalam', cursive;*/
