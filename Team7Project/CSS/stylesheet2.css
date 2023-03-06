@@ -4,142 +4,133 @@ header {
     width: 100%;
   }
   
-  ul {
-    list-style: none;
-  }
+ul {
+  list-style: none;
+}
   
-  /* NAV BAR */
-  
-  #nav_bar li {
-    display: inline-block;
-    padding: 8px;
-  }
-  
-  #nav_bar #book {
-    background: #525555; 
-    margin-right: 25px;
-    padding: 7px 15px;
-    border-radius: 3px; 
-    font-weight: bold;
-    font-family: 'Kalam', cursive;
-  }
+/* NAV BAR */
 
-  .nav-links {
-    color: #404040;
-    font-family: 'Kalam', cursive;
-    font-size: 20px;
-    float: left;
-  }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  li.nav-links a:hover {
-    text-decoration: underline;
-  }
-  
-  #book:hover { 
-    box-shadow: 1px 1px 5px #999;
-  }
-  
-  #book {
-    color: #fff;
-    float: right;
-  }
-  
-/* Banner */
-
-.banner-container{
-    display:flex;
-    margin-top: 20px;
-    width: 100%;
-}
-.banner-container {
-  width: 100%;
-  width: 300;
-  background: url(/Images/restaurant.jpeg); width: 100%;
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
-  color: #030303;
-  text-align: center;
-  justify-content: center;
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
 }
 
-/* Menus*/
-div.menus {
-  padding: 0, 100px, 0, 100px;
-}
-.breakfast-container {
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    padding: 20px;
-    width: auto;
-    height: 300px;
-    background-color: #91846f;
-    align-content: center;
-}
-.lunch-container {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    width: auto;
-    height: 300px;
-    background-color: #e1c481;
-    align-content: center;
-}
-.dinner-container {
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    padding: 20px;
-    width: auto;
-    height: 300px;
-    background-color: #91846f;
-    align-content: center;
-}
-.text p {
-    font-family: 'Kalam', cursive;
-    font-size: 20px;
-    margin: 40px;
-    width: 300px;
-    justify-content: center;
-    text-align: left;
-
-}
-.text h1 {
-    font-family: 'Kalam', cursive;
-    font-weight: bold;  
-    font-size: 40px;
-    margin: 40px;
-    text-align: center;
-
-}
-.image {
-  display: flex;
-  justify-items: center;
-  margin: 40px;
-}
-
-/* Menu Buttons */
-
-
-.MenuButton:hover { 
-  box-shadow: 1px 1px 5px #999;
-}
-
-.MenuButton {
-  color: #fff;
-  float: right;
-  background: #525555; 
+#nav_bar #book {
+  background-color: #60d77a;
   margin-right: 25px;
   padding: 7px 15px;
   border-radius: 3px; 
   font-weight: bold;
   font-family: 'Kalam', cursive;
+  color: #373737;
+  float: right;
+}
+
+.nav-links {
+  color: #404040;
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#nav_bar #book:hover { 
+  box-shadow: 1px 1px 5px #999;
+  background-color: #373737;
+  color: #fff
+}
+
+/* Banner */
+
+.banner-container{
+  display:flex;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.banner-container {
+width: 100%;
+width: 300;
+background: url(/Images/restaurant.jpeg); width: 100%;
+font-family: 'Dancing Script', cursive;
+font-size: 50px;
+color: #030303;
+text-align: center;
+justify-content: center;
+}
+
+/* Menus*/
+div.menus {
+padding: 0, 20px, 0, 20px;
+}
+
+.menu-container {
+  display:flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+  height: auto;
+  background-color: #91846f;
+  align-content: center;
+}
+
+#image-right {
+  flex-direction: row;
+  background-color: #e1c481;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text p {
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: left;
+
+}
+
+.text h2 {
+  font-family: 'Kalam', cursive;
+  font-weight: bold;  
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  margin: 40px;
+  width: 350px;
+}
+
+/* Menu Buttons */
+
+.MenuButton {
+  color: #fff;
+  float: right;
+  background: #525555; 
+  margin: 10px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+  font-family: 'Kalam', cursive;
+}
+
+.MenuButton:hover { 
+  box-shadow: 1px 1px 5px #999;
+  color: #1d1d1d;
+  background: #fff;
 }
 
 /* footer menu */
