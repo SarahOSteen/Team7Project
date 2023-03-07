@@ -80,6 +80,34 @@ justify-content: center;
 
 /*Body Content*/
 
+.popup {
+  background-color: #525555;
+  width: 450px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+#close {
+  border-color: none;
+  background-color: #404040;
+  color: #fff;
+  align-items: right;
+}
+#signUp {
+  padding: 5px;
+  color: #404040;
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+}
+
 .AboutUs-container {
   display: flex;
   flex-direction: row-reverse;
